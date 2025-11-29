@@ -10,7 +10,7 @@ import {
   fetchMarketData,
   fetchTechBriefs,
   fetchWeather,
-} from "./services/apiService";
+} from "../services/apiService";
 
 export default function Page() {
   const [data, setData] = useState<NewspaperData | null>(null);
