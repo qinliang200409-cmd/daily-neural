@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
 import Masthead from "./components/Masthead";
 import HeroSection from "./components/HeroSection";
